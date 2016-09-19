@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_left_swipe_menu"
+        android:title="只有左侧滑动菜单" />
+
+    <item
+        android:id="@+id/add_right_swipe_menu"
+        android:title="只有右侧滑动菜单" />
+
+    <item
+        android:id="@+id/add_swipe_menu"
+        android:title="两侧都有滑动菜单" />
+
+    <item
+        android:id="@+id/drop_item"
+        android:title="长按拖拽条目" />
+    <item
+        android:id="@+id/swipe_delete_menu"
+        android:title="长按滑动删除条目" />
+    <item
+        android:id="@+id/multi_type_swipe_menu"
+        android:title="仅偶数位置有滑动菜单" />
+
+
+</menu>

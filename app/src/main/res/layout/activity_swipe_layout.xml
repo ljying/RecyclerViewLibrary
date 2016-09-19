@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+
+    <ljying.github.io.swiperecyclerview.SwipeMenuLayout
+        android:id="@+id/swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        app:contentViewId="@+id/content_view"
+        app:leftViewId="@+id/left_view"
+        app:rightViewId="@+id/right_view">
+
+
+        <TextView
+            android:id="@id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="我是滑动布局，你左右滑我看看，有惊喜喔。"
+            android:textColor="#333"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@id/left_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff99cc00"
+            android:src="@drawable/ic_action_wechat" />
+
+        <ImageView
+            android:id="@id/right_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffff4444"
+            android:src="@drawable/ic_action_delete" />
+    </ljying.github.io.swiperecyclerview.SwipeMenuLayout>
+</LinearLayout>

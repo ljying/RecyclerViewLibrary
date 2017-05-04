@@ -15,4 +15,4 @@
 
 * 单选分组与多选分组
 
-![swipe_layout](./screenshot/group_multi_select.png)    ![swipe_layout](./screenshot/group_single_select.png)
+![swipe_layout](./screenshot/gropu_single_select.png)  ![swipe_layout](./screenshot/group_multi_select.png)

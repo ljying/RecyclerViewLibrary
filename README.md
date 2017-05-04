@@ -6,5 +6,5 @@
 ![swipe_layout](./screenshot/swipe_layout.gif)
 
 * 滑动拖拽功能
-![swipe_layout](./screenshot/swipe_item.png)
+![swipe_layout](./screenshot/swipe_item.gif)
 

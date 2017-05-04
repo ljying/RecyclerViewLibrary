@@ -9,3 +9,10 @@
 
 ![swipe_layout](./screenshot/swipe_item.gif)
 
+* 简单分组与多类型子条目分组
+
+![swipe_layout](./screenshot/simple_group.png)    ![swipe_layout](./screenshot/simple_group_2.png)
+
+* 单选分组与多选分组
+
+![swipe_layout](./screenshot/group_multi_select.png)    ![swipe_layout](./screenshot/group_single_select.png)
